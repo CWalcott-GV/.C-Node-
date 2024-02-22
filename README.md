@@ -23,10 +23,12 @@ Via ChatGPT:
 
 It presents a menu-driven interface for interacting with the inventory system.
 Options include creating an empty list, inserting a product, deleting a product, deleting the entire list, searching for a product, displaying products, purchasing a product, selling a product, and exiting the program.
+
 **Input Handling:**
 
 The code handles invalid input by clearing the input buffer and prompting the user to try again.
 _However, the handling of invalid inputs can be improved further._
+
 **Overall Structure:**
 
 The code seems logically structured and well-commented.
