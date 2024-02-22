@@ -18,12 +18,6 @@ void printElements(node*);
 	3/25/2022
 */
 
-
-//struct node* make(){
-	//struct node* head = NULL;
-	//	return head;
-//}
-
 node *add(node* head, char* a, char* b, int c, int d) {
     node *newNode = (node *) malloc (sizeof(node));
     strcpy(newNode->name,a);
@@ -174,8 +168,7 @@ int main()
  int quantity = 0;
  int price = 0;
  char temp;
-
-  //make();
+	
   node* head = NULL;
   while(1){
 
