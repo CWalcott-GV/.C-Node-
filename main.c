@@ -126,7 +126,7 @@ void sell(node *head, char *name) {
 				if(strcmp(temp -> name, name) == 0){
 					int sell = temp -> quantity;
 					sell = sell - 1;
-					if(sell = 0){
+					if(sell == 0){
 						printf("item now has quantity less than zero\n");
 					}
 					temp -> quantity = sell;
