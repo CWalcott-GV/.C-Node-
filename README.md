@@ -1,13 +1,15 @@
 # .C-Node-
 Node assignment in C language for Linux architecture.
 
-Improvements can be made: 
+Improvements:
 
-Via ChatGPT:
+_Error handling can be improved, especially in input validation.
+The add function currently adds new elements at the beginning of the list. Depending on the use case, you might want to add elements at the end or maintain the list in sorted order.
+More robust memory management can be implemented, like freeing memory when nodes are removed._"
 
-"Basic implementation of linked list used to manage a product inventory system. Here's a review of the code:
+**Structure Definition and Function Prototypes:**
 
-**Structure Definition and Function Prototypes:** The node structure is defined to represent each product in the inventory. Function prototypes for functions like add, removeNode, printElements, buy, sell, deleteList, and search are provided.
+The node structure is defined to represent each product in the inventory. Function prototypes for functions like add, removeNode, printElements, buy, sell, deleteList, and search are provided.
 
 **Function Implementations:**
 
@@ -27,14 +29,5 @@ Options include creating an empty list, inserting a product, deleting a product,
 **Input Handling:**
 
 The code handles invalid input by clearing the input buffer and prompting the user to try again.
-_However, the handling of invalid inputs can be improved further._
 
-**Overall Structure:**
 
-The code seems logically structured and well-commented.
-
-Improvements:
-
-_Error handling can be improved, especially in input validation.
-The add function currently adds new elements at the beginning of the list. Depending on the use case, you might want to add elements at the end or maintain the list in sorted order.
-More robust memory management can be implemented, like freeing memory when nodes are removed._"
